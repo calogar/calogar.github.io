@@ -1,9 +1,11 @@
 ---
-title: "Simple Overview of JavaScript Modules"
+title: Simple Overview of JavaScript Modules
 date: 2019-12-07 19:48:00 +0800
 categories: [JavaScript]
 tags: [Modules, RequireJS, CommonJS, ES6]
 toc: false
+seo:
+  date_modified: 2020-05-05 13:11:51 +0200
 ---
 
 The concept of "modules" is an essential piece of every curated programming language. When we write code, it is only natural to divide and organize it into **separated, encapsulated pieces, that can be reused in many parts of our apps** and even in other projects maintained by different people.

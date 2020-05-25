@@ -1,9 +1,11 @@
 ---
-title: "My honest opinion: AngularJS"
+title: My opinion about AngularJS
 date: 2020-01-26 13:47:00 +0800
 categories: [JavaScript, AngularJS, Angular, Opinion]
 tags: [Components, AngularJS, Angular]
 toc: false
+seo:
+  date_modified: 2020-05-05 13:11:51 +0200
 ---
 
 Since it was released in 2010, AngularJS, which should not be confused with Angular or Angular 2+, started to rivalize with jQuery in the implementation of Web Applications. Unlike jQuery, it is based in the Model-View-Whatever pattern, in which "Whatever" can mean "Controller", "ViewModel" or any compatible concept.

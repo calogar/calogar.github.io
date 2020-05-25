@@ -5,18 +5,11 @@
 # https://github.com/cotes2020/jekyll-theme-chirpy
 # © 2019 Cotes Chung
 # Published under MIT License
-
 set -eu
-
 CMD="JEKYLL_ENV=production bundle exec jekyll b"
-
 WORK_DIR=$(dirname $(dirname $(realpath "$0")))
-
 CONTAINER=${WORK_DIR}/.container
-
 DEST=${WORK_DIR}/_site
-
-
 help() {
   echo "Usage:"
   echo
@@ -27,8 +20,6 @@ help() {
   echo "   -h, --help               Print the help information"
   echo "   -d, --destination <DIR>  Destination directory (defaults to ./_site)"
 }
-
-
 init() {
   cd $WORK_DIR
 
@@ -45,7 +36,6 @@ init() {
   cp -r .git $temp
   mv $temp $CONTAINER
 }
-
 
 build() {
   cd $CONTAINER
